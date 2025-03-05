@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -37,10 +38,37 @@
   }
 }
 
-.NavigationBar {
-  position: fixed;
-  max-width: 30%;
-  min-width: 10%;
-  max-height: 100%;
-  min-height: 100%;
+@keyframes head_banner_animation {
+  0%{background-position:0% 0%}
+  100%{background-position:100% 100%}
+}
+
+@keyframes head_banner_animation_back {
+  
+  0%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+:root{
+  --banner-background: linear-gradient(135deg,#4FB8FB,#43EBF7,#8143F7)
+}
+
+.headBanner{
+  height: auto;
+  text-align: center;
+  padding: 100px;
+  border: 3px solid  red;
+  margin: auto;
+  background: var(--banner-background);
+  background-size: 200% 200%;
+  transition: background-position 0.5s ease-out;
+}
+
+.headBanner:hover{
+  height: auto;
+  text-align: center;
+  padding: 100px;
+  border: 3px solid  red;
+  margin: auto;
+  background-position: 100% 0;
 }

@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import {Navigation} from './Navigation.js'
+import BasicTabs from './TopTabs';
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <h1 className='headBanner'>Welcome to caligula.today.portifolio</h1>
+      <h2>hi</h2>
     </div>
   );
 }
