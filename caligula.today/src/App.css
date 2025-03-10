@@ -29,25 +29,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@keyframes head_banner_animation {
-  0%{background-position:0% 0%}
-  100%{background-position:100% 100%}
-}
-
-@keyframes head_banner_animation_back {
-  
-  0%{background-position:100% 100%}
-  100%{background-position:0% 0%}
-}
 
 :root{
   --banner-background: linear-gradient(135deg,#4FB8FB,#43EBF7,#8143F7)
