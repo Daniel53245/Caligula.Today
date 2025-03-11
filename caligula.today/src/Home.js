@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import { Fragment } from "react";
-import "./Home.css";
+import classes from './Home.module.css';
 
 const Home = (props) => {
   const { children, value, index, ...other } = props;
   return (
-    <div>
+    <div className={classes.Home}> 
       {value === index && (
         <Fragment>
           <div>
