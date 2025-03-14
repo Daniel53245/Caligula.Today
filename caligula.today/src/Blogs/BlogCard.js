@@ -59,7 +59,6 @@ const BlogCard = ({ blog }) => {
       <Dialog
         open={open}
         onClose={handleClose}
-        fullScreen
         sx={{
           "& .MuiDialog-paper": {
             width: "90%",
@@ -73,7 +72,7 @@ const BlogCard = ({ blog }) => {
         }}
       >
         <DialogTitle>
-          <Typography>{blog.titile}</Typography>
+          <Typography>{blog.title}</Typography>
         </DialogTitle>
         <DialogContent>
                
