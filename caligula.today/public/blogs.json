@@ -1,0 +1,24 @@
+[
+        {
+          "id": 1,
+          "title": "Welcome to My Blog",
+          "imageUrl": "/images/blog1.jpg",
+          "summary": "This is a test blog post to welcome you to my blog! Explore and enjoy our content.",
+          "date": "2025-03-01"
+        },
+        {
+          "id": 2,
+          "title": "A Day in the Life",
+          "imageUrl": "/images/blog2.jpg",
+          "summary": "Discover what a typical day looks like as we dive into daily routines and experiences.",
+          "date": "2025-03-02"
+        },
+        {
+          "id": 3,
+          "title": "Understanding React Components",
+          "imageUrl": "/images/blog3.jpg",
+          "summary": "A deep dive into the world of React components, hooks, and how they make development efficient.",
+          "date": "2025-03-05"
+        }
+      ]
+      
