@@ -11,7 +11,7 @@ const Blogs = (props) => {
           <BlogContainer></BlogContainer>
         </>
       )}
-    </div>
+    </div>      
   );
 };
 Blogs.propTypes = {
