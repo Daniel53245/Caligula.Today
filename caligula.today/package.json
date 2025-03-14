@@ -1,6 +1,6 @@
 {
   "name": "caligula.today",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -13,6 +13,8 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-lazyload": "^3.2.1",
+    "react-masonry-css": "^1.0.16",
     "react-scripts": "5.0.1",
     "react-tweet": "^3.2.2",
     "web-vitals": "^2.1.4"
