@@ -1,6 +1,10 @@
 
 .App {
-  text-align: center;
+  /*size*/
+  width: 100%;
+  /*display*/
+  display: flex;
+  
 }
 
 .App-logo {

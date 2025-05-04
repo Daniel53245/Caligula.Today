@@ -1,6 +1,6 @@
 import './App.css';
 import NavigationBar from './NavigationBar.js'
-import styles from './headBanner.module.css'
+import styles from './headbanner.module.css'
 
 
 function App() {
