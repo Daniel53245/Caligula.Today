@@ -1,0 +1,19 @@
+.headBanner{
+        height: auto;
+        text-align: center;
+        padding: 100px;
+        border: 3px solid  red;
+        margin: auto;
+        background: var(--banner-background);
+        background-size: 200% 200%;
+        transition: background-position 0.5s ease-out;
+      }
+      
+      .headBanner:hover{
+        height: auto;
+        text-align: center;
+        padding: 100px;
+        border: 3px solid  red;
+        margin: auto;
+        background-position: 100% 0;
+      }
