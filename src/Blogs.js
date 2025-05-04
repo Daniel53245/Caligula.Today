@@ -4,7 +4,7 @@ import BlogContainer from "./Blogs/BlogsContainer";
 const Blogs = (props) => {
   const { children, value, index, ...other } = props;
   return (
-    <div>
+    <div  >
       {value === index && (
         <>
           <h1>This is Blogs</h1>

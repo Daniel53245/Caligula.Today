@@ -1,10 +1,11 @@
-
 .App {
   /*size*/
   width: 100%;
   /*display*/
   display: flex;
-  
+  justify-content: start;
+  flex-wrap: nowrap;
+
 }
 
 .App-logo {
@@ -35,7 +36,6 @@
 
 
 
-:root{
-  --banner-background: linear-gradient(135deg,#4FB8FB,#43EBF7,#8143F7)
+:root {
+  --banner-background: linear-gradient(135deg, #4FB8FB, #43EBF7, #8143F7)
 }
-
