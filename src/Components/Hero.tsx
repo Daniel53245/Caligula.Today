@@ -8,7 +8,7 @@ import WorkIcon from '@mui/icons-material/Work';
 const Hero = () => {
     const jumpTo = (e:React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
-        open(e.target.value)
+        open(e.currentTarget.value)
         }
     return (
         <div className="hero">

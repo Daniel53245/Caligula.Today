@@ -1,4 +1,3 @@
-import React from 'react'
 import './Navigation.scss'
 import PersonalIcon from '../../assets/img/g-HOfy7k_400x400.jpg'
 
