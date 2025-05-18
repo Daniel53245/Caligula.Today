@@ -1,4 +1,4 @@
-$backgroung-color: #F3F3E0;
+$background-color: #F3F3E0;
 $primary-color: #DDA853;
 $secondary-color: #27548A; 
 
@@ -9,7 +9,7 @@ $secondary-color: #27548A;
                 flex-grow: 1;
                 width: calc(100vw - 300px);
                 padding: 1rem;
-                background-color: $backgroung-color;
+                background-color: $background-color;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
@@ -19,7 +19,7 @@ $secondary-color: #27548A;
                         font-size: 48px;
                         background-color: transparent;
                 }
-                .self-introdction{
+                .self-introduction{
                         max-width: 60ch;
                         min-width: 30ch;
                         font-size: 30px;

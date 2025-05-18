@@ -15,7 +15,7 @@ const Hero = () => {
             <Navigation />
             <div className="content-container">
                 <h2>Boyu Dai</h2>
-                <p className="self-introdction">Hi visitor, this is Dai. I am a software developer and game developer located in Canberra. Nice to meet you on my website.</p>
+                <p className="self-introduction">Hi visitor, this is Dai. I am a software developer and game developer located in Canberra. Nice to meet you on my website.</p>
                 <div className="link-container">
                     <div className="link">
                         <button onClick={jumpTo} value="https://www.linkedin.com/in/boyudai"><LinkedInIcon className="icon" /><p>Linkedin</p></button>
