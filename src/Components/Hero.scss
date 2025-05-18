@@ -1,3 +1,7 @@
+$backgroung-color: #F3F3E0;
+$primary-color: #DDA853;
+$secondary-color: #27548A; 
+
 .hero{
         display: flex;
         column-gap: 0;
@@ -5,7 +9,7 @@
                 flex-grow: 1;
                 width: calc(100vw - 300px);
                 padding: 1rem;
-                background-color: antiquewhite;
+                background-color: $backgroung-color;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
@@ -16,16 +20,23 @@
                         background-color: transparent;
                 }
                 .self-introdction{
+                        max-width: 60ch;
+                        min-width: 30ch;
+                        font-size: 30px;
+                        margin: auto;                        
                         text-align: center;
                         background-color: transparent;
                 }
                 .link-container {
                         display: flex;
                         justify-content: space-evenly;
+                        flex-wrap: wrap;
+                        row-gap: 1rem;
                         font-size: 1.1 em;
                         line-height: 1.1em;
+                        background-color: transparent;
                         button {
-                                background-color: aqua;
+                                background-color: $primary-color;
                                 display: flex;
                                 justify-content: space-evenly;
                                 transition:
@@ -36,15 +47,20 @@
                                         display: block;
                                         margin: auto;
                                         font-weight: bold;
-                                        background-color: rgba(0,0,0,0);
+                                        background-color: transparent;
                                 }
                                 &:hover{
-                                        background-color: aquamarine;
                                         box-shadow: 3px 3px black;
                                         translate: -3px -3px;
+                                        cursor: pointer;
+                                }
+                                &:disabled{
+                                        cursor: not-allowed;
+                                        color: darkgray;
+                                        background-color: gray;
                                 }
                                 .icon{
-                                        background-color: rgba(0,0,0,0);
+                                        background-color: transparent;
                                         padding-right: 1ch;
                                 }
                         }
